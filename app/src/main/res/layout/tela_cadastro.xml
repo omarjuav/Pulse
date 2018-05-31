@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="532dp"
+        android:layout_height="812dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="29dp">>
+
+        <EditText
+            android:id="@+id/editNome1"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nome"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/editEmail1"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Email"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="82dp" />
+
+        <EditText
+            android:id="@+id/editSenha1"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Senha"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="148dp" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="REGISTRAR"
+            tools:layout_editor_absoluteX="193dp"
+            tools:layout_editor_absoluteY="214dp" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="CANCELAR"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="214dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

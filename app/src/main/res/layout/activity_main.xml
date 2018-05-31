@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pulse.com.br.pulse.MainActivity">
+
+    <LinearLayout
+        android:layout_width="532dp"
+        android:layout_height="812dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="-18dp"
+        tools:layout_editor_absoluteY="-20dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="409dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="150px"
+            android:text="Nome de Usuário"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="114dp" />
+
+
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="133dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="100px"
+            android:text="Senha"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="215dp" />
+
+        <EditText
+            android:id="@+id/edtSenha"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+        <Button
+
+            android:id="@+id/monitorar"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="100dp"
+            android:background="@android:color/black"
+            android:elevation="0dp"
+            android:onClick=""
+            android:padding="25dp"
+            android:text="ENTRAR"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
